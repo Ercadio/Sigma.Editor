@@ -1,20 +1,25 @@
 // This is purely the layout configuration
 
-
-window.onload = loadPage;
+window.onload = () =>{loadPage(setup);};
 window.onresize = loadPage;
 
-// Layout functions                   // ---------------------------------
+// Layout functions                  // ---------------------------------
 
-function loadPage(){
-	let windowHeight = window.innerHeight;
-	let windowWidth = window.innerWidtg;
-	let body = document.body;
-	console.log(body);
-	let canvas = newElement('div',body);
+function setup(){
+  let windowHeight = window.innerHeight;
+  let windowWidth = window.innerWidtg;
+  let body = document.body;
+  let canvas = newElement('canvas',body);
+  let rightTab = newElement('div',body);
+}
+function loadPage(setup){
+	if(setup) setup();
 	canvas.width = windowWidth * 0.6;
 	canvas.height = windowHeight;
-
+	canvas.id = "graph";
+	canvas.innerHTML = "ho";
+	rightTab.id = "rightTab";
+	rightTab.innerHTML = canvas.id;
 }
 
 
