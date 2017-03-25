@@ -1,0 +1,27 @@
+{
+  "name": "quill",
+  "version": "1.0.0",
+  "description": "A math calculator",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ercadio/Sigma.Editor.git"
+  },
+  "keywords": [
+    "math",
+    "graph",
+    "equation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ercadio/Sigma.Editor/issues"
+  },
+  "homepage": "https://github.com/Ercadio/Sigma.Editor#readme",
+  "dependencies": {
+    "process": "^0.11.9"
+  }
+}
