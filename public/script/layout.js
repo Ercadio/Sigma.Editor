@@ -17,9 +17,7 @@ function loadPage(setup){
 	canvas.width = windowWidth * 0.6;
 	canvas.height = windowHeight;
 	canvas.id = "graph";
-	canvas.innerHTML = "ho";
 	rightTab.id = "rightTab";
-	rightTab.innerHTML = canvas.id;
 }
 
 
